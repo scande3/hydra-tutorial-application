@@ -10,6 +10,11 @@ module NavigationHelpers
 
     when /the home\s?page/
       '/'
+    when /logout/
+      logout_path
+    when /my account info/
+      user_path
+      
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
