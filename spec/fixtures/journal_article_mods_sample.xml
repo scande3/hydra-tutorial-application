@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" version="3.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3
+     http://www.loc.gov/standards/mods/v3/mods-3-0.xsd">
+   <titleInfo>
+       <title>ARTICLE TITLE</title>                                   <!-- title -->
+   </titleInfo>
+   <name type="personal">
+       <namePart type="family">FAMILY NAME</namePart>                 <!-- author last name -->
+       <namePart type="given">GIVEN NAMES</namePart>                  <!-- author first name -->
+       <role> 
+           <roleTerm authority="marcrelator" type="text">Creator</roleTerm> <!-- author role -->
+       </role>
+   </name>
+   <abstract>ABSTRACT</abstract>                                    <!-- abstract -->
+   <relatedItem type="host">
+       <titleInfo>
+           <title>TITLE OF HOST JOURNAL</title>                     <!-- journal title -->
+       </titleInfo>
+       <part>
+           <detail type="volume">
+               <number>2</number>                                   <!-- journal volume -->
+           </detail>
+           <detail type="level">
+               <number>2</number>                                   <!-- journal issue -->
+           </detail>
+           <extent unit="pages">
+               <start>195</start>                                   <!-- start page -->
+               <end>230</end>                                       <!-- end page -->
+           </extent>
+           <date>FEB. 2007</date>                                   <!-- publication date -->
+       </part>
+    </relatedItem>
+</mods>

@@ -4,7 +4,7 @@ module ApplicationHelper
   
   # overridden for localization
   def application_name
-    'Hypatia'
+    'Hydra Tutorial App'
   end
   
 end

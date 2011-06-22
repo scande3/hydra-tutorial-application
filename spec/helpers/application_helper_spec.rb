@@ -5,7 +5,7 @@ describe ApplicationHelper do
   
   describe "Overall UI methods" do
     it "should get the local application name" do
-      application_name.should == "Hypatia"
+      application_name.should == "Hydra Tutorial App"
     end
   end
   
