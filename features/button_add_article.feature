@@ -1,7 +1,9 @@
-Feature: Homepage
-  I want the home page to reflect localizations properly
+Feature: Button to Add Articles
+  In order to create Journal Articles
+  As a person with submit permissions
+  I want to see a button for adding articles
   
-  Scenario: home page text
+  Scenario: button to add articles on home page
     Given I am logged in as "archivist1"
     When I am on the home page
     Then I should not see "Add a MODS Asset"
