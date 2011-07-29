@@ -44,22 +44,16 @@ Blacklight.configure(:shared) do |config|
   # config[:facet] << {:field_name => "format", :label => "Format", :limit => 10}
   config[:facet] = {
     :field_names => (facet_fields = [
-      "format",
-      "pub_date",
+      "has_model_s",
       "subject_topic_facet",
-      "language_facet",
-      "lc_1letter_facet",
-      "subject_geo_facet",
-      "subject_era_facet"
+      "journal_title_info_main_title_facet",
+      "conference_facet"
     ]),
     :labels => {
-      "format"              => "Format",
-      "pub_date"            => "Publication Year",
+      "has_model_s" => "Fedora Model",
       "subject_topic_facet" => "Topic",
-      "language_facet"      => "Language",
-      "lc_1letter_facet"    => "Call Number",
-      "subject_era_facet"   => "Era",
-      "subject_geo_facet"   => "Region"
+      "journal_title_info_main_title_facet" => "Journal",
+      "conference_facet" => "Conference"
     },
     # Setting a limit will trigger Blacklight's 'more' facet values link.
     # * If left unset, then all facet values returned by solr will be displayed.
