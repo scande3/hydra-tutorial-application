@@ -1,3 +1,43 @@
+PATH
+  remote: ../hydra-head/
+  specs:
+    hydra-head (3.0.0pre1)
+      RedCloth (= 4.2.3)
+      active-fedora (>= 2.3.3)
+      blacklight (= 3.0.0)
+      block_helpers
+      builder
+      columnize
+      crack
+      curb
+      database_cleaner
+      diff-lcs
+      facets (= 2.8.4)
+      haml
+      httparty
+      json_pure (> 1.4.3)
+      launchy
+      linecache
+      mime-types
+      multipart-post
+      nokogiri
+      om (>= 1.2.3)
+      rack
+      rack-test
+      rails (>= 3.0)
+      rake
+      rcov
+      sanitize
+      solr-ruby
+      solrizer (>= 1.1.0)
+      solrizer-fedora (>= 1.1.0)
+      sqlite3-ruby (= 1.2.5)
+      term-ansicolor
+      trollop
+      will_paginate
+      xml-simple
+      yard
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -96,42 +136,6 @@ GEM
     haml (3.1.2)
     httparty (0.7.8)
       crack (= 0.1.8)
-    hydra-head (3.0.0pre1)
-      RedCloth (= 4.2.3)
-      active-fedora (>= 2.3.3)
-      blacklight (= 3.0.0)
-      block_helpers
-      builder
-      columnize
-      crack
-      curb
-      database_cleaner
-      diff-lcs
-      facets (= 2.8.4)
-      haml
-      httparty
-      json_pure (> 1.4.3)
-      launchy
-      linecache
-      mime-types
-      multipart-post
-      nokogiri
-      om (>= 1.2.3)
-      rack
-      rack-test
-      rails (>= 3.0)
-      rake
-      rcov
-      sanitize
-      solr-ruby
-      solrizer (>= 1.1.0)
-      solrizer-fedora (>= 1.1.0)
-      sqlite3-ruby (= 1.2.5)
-      term-ansicolor
-      trollop
-      will_paginate
-      xml-simple
-      yard
     i18n (0.5.0)
     json (1.5.3)
     json_pure (1.5.3)
@@ -251,7 +255,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   devise
-  hydra-head (= 3.0.0pre1)
+  hydra-head!
   mocha
   rails (~> 3.0.4)
   rspec

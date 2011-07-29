@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '~>3.0.4'
 
 gem 'blacklight', '~> 3.0.0'
-gem 'hydra-head', '3.0.0pre1'
+gem 'hydra-head', :path=>"../hydra-head"
 
 # We will assume that you're using sqlite3 for testing/demo, 
 # but in a production setup you probably want to use a real sql database like mysql or postgres
