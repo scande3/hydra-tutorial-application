@@ -1,0 +1,44 @@
+%h1 
+  Journal Article: 
+  = @article.title
+  
+=form_for @article do |f|
+  %ul.form-fields
+    %li 
+      =f.label 'title', "Title"
+      =f.text_field 'title'
+    %li 
+      =f.label 'abstract', "Abstract"
+      =f.text_field 'abstract'
+      
+
+  %h2 Authors
+  %ul.form-fields
+    = f.fields_for :authors do |author_form|
+        %li
+          =author_form.label "first_name", "First Name"
+          =author_form.text_field 'first_name'  
+        %li
+          =author_form.label "last_name", "Last Name"
+          =author_form.text_field 'last_name'
+        %li
+          =author_form.label "role", "Role"
+          =author_form.text_field 'role'
+  
+  %h2 Journal
+  %ul.form-fields
+    %li 
+      =f.label 'journal_title', "Journal Title"
+      =f.text_field 'journal_title'
+    %li 
+      =f.label 'journal_issue_volume', "Volume"
+      =f.text_field 'journal_issue_volume'
+    %li 
+      =f.label 'journal_issue_level', "Level"
+      =f.text_field 'journal_issue_level'
+    %li 
+      =f.label 'start_page', "Start Page"
+      =f.text_field 'start_page'
+    %li 
+      =f.label 'end_page', "End Page"
+      =f.text_field 'end_page'
