@@ -26,3 +26,5 @@ group :development, :test do
        gem 'bcrypt-ruby'
        gem "jettywrapper"
 end
+
+gem "devise"
